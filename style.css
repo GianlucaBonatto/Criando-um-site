@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bree+Serif&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
 }
 
 body {
@@ -25,16 +25,52 @@ body {
         font-family: 'Bree Serif', serif;
     }
 
+img {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0% 17.4%;
+}
+
 h1 {
-    color: yellow;
+    color: gold;
     font-size: 2cm;
-    margin: 0;
     padding: 0;
     font-family: 'Black Ops One', system-ui;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0% 0%;
 }
 
 h2 {
     color: white;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 0% 0%;
+    font-size: 20px;
+}
+
+ul {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0% 4%;
+}
+
+li {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 0.7% 0.7% 0.7%;
+}
+
+p {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
 }
 
 a {
@@ -43,19 +79,50 @@ a {
 }
 
 .piores {
-    color: aquamarine;
+    color: yellow;
 }
 
 button {
-box-shadow: 0 0 5px cyan,
-0 0 25px cyan;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
+
 }
 button:hover {
-box-shadow: 0 0 5px cyan,
-0 0 25px cyan, 0 0 50px cyan,
-0 0 100px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan;
 }
 
 button {
-    color: blueviolet;
+    color:blueviolet;
+    background-color:rgb(207, 248, 245);
+    font-family: 'Bree Serif', serif;
+    width: 230px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 0;
+    font-size: 17px;
+}
+ 
+.apresentacao__site {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0% 0%;
+    font-size: 17px;
+}
+
+.sobre__o__time__cor { 
+    color: yellow;
+}
+
+.rodrigordo {
+    color:yellow;
+}
+
+.primeira__parte {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin: 6.5% 0.7% 0.7%;
 }
