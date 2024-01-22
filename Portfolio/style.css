@@ -17,7 +17,7 @@ body {
     align-items: center;
 }
 
-    .apresentacao {
+.apresentacao {
         margin: 10%;
         display: flex;
         align-items: center;
@@ -25,11 +25,11 @@ body {
         font-family: 'Bree Serif', serif;
     }
 
-img {
+.logo {
     box-sizing: border-box;
     justify-content: center;
     align-items: center;
-    margin: 0% 0% 17.4%;
+    margin: 0% 0% 20%;
 }
 
 h1 {
@@ -50,6 +50,7 @@ h2 {
     align-items: center;
     margin: 0% 0% 0%;
     font-size: 20px;
+    font-weight: 600;
 }
 
 ul {
@@ -76,32 +77,12 @@ p {
 a {
     color: white;
     font-family: 'Bree Serif', serif;
+    align-items: center;
 }
 
 .piores {
     color: yellow;
-}
-
-button {
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan;
-
-}
-button:hover {
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,
-    0 0 100px cyan, 0 0 200px cyan;
-}
-
-button {
-    color:blueviolet;
-    background-color:rgb(207, 248, 245);
-    font-family: 'Bree Serif', serif;
-    width: 230px;
-    text-align: center;
-    border-radius: 15px;
-    padding: 5px 0;
-    font-size: 17px;
+    font-weight: 500;
 }
  
 .apresentacao__site {
@@ -114,10 +95,12 @@ button {
 
 .sobre__o__time__cor { 
     color: yellow;
+    font-weight: 500;
 }
 
 .rodrigordo {
     color:yellow;
+    font-weight: 500;
 }
 
 .primeira__parte {
@@ -126,3 +109,42 @@ button {
     align-items: center;
     margin: 6.5% 0.7% 0.7%;
 }
+
+.apresentacao__links {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+}
+
+.apresentacao__links__titulo {
+    font-family: 'Bree Serif', serif;
+    font-weight: 450;
+}   
+
+/* button { */
+
+    /* box-shadow: 0 0 5px cyan, */
+    /* 0 0 25px cyan; */
+/* } */
+
+button:hover {
+    box-shadow: 0 0 5px yellow,
+    0 0 25px yellow, 0 0 50px yellow,
+    0 0 100px yellow, 0 0 200px yellow;
+}
+
+button {
+    color: white;
+    background-color: black; */
+    width: 280px;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-size: 15px;
+    border: 2px solid yellow;
+    display:inline flex;
+    align-items: center;
+    gap: 10px;
+} 
